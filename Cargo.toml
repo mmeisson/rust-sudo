@@ -1,0 +1,11 @@
+[package]
+name = "sudoku"
+version = "0.1.0"
+authors = ["mmeisson <mmeisson@student.42.fr>"]
+edition = "2018"
+
+[[bin]]
+name = "sudoku"
+path = "src/sudo.rs"
+
+[dependencies]
